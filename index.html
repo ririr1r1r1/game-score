@@ -1,34 +1,38 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>GitHubスコア管理</title>
+    <title>GitHub Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <div id="wrapSampleForm">
         <form id="sampleForm">
-            名前<br />
+            <label for="formName">名前</label><br />
             <select name="formName">
                 <option selected>りり１</option>
                 <option>りり２</option>
                 <option>りり３</option>
             </select>
             <br />
-            難易度<br />
+            <label for="formlevel">難易度</label><br />
             <select name="formlevel">
                 <option selected>初級</option>
                 <option>中級</option>
                 <option>上級</option>
             </select>
             <br />
-            スコア<br />
+            <label for="formComent">スコア</label><br />
             <textarea name="formComent"> </textarea>
             <br />
         </form>
         <button onclick="appendToTable()">追加</button>
     </div>
+
     <table id="sampleTable">
         <tr>
             <th>名前</th>
@@ -38,6 +42,8 @@
             <th>削除</th>
         </tr>
     </table>
+
     <script src="script.js"></script>
 </body>
+
 </html>
