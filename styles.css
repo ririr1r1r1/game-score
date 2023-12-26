@@ -1,0 +1,39 @@
+<style>
+    #wrapSampleForm {
+        width: 500px;
+        margin: 10px;
+        padding: 10px;
+        /* border: 1px solid gray; */
+        border-radius: 10px;
+    }
+    #wrapSampleForm {
+        background-color: #f0f8ff;
+    }
+    #sampleTable {
+        background-color: #ffffcc;
+    }
+    #sampleTable th {
+        color: #000000 !important;
+    }
+    #sampleTable th,
+    #sampleTable td {
+        width: 100px;
+        font-size: 15px !important;
+        border: 1px solid gray;
+        background-color: #ffffcc;
+    }
+    #tableName {
+        width: 20%;
+    }
+    #tablelevel {
+        width: 10px;
+    }
+    }
+    #tableComent {
+        width: 50%;
+    }
+    #sampleForm * {
+        margin: 1px ;
+        vertical-align: text-top;
+    }
+    </style>
